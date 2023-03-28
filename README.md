@@ -11,4 +11,4 @@ total_valu_size():看現在的背包有沒有符合規則<br>
 adjacent():隨機換一個物品的狀態<br>
 solve():用SA解決此背包問題
 <br><br><br>
-為了找出找出最佳解，在main函式裡窮舉退火溫度，結果在start_temperature=3591000時迭代250次的時後衝出了區域最佳解
+為了找出最佳解，在main函式裡窮舉退火溫度，結果在start_temperature=3591000時迭代250次的時後衝出了區域最佳解
