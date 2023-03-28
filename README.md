@@ -9,4 +9,6 @@ SA的最大特色，即是在尋找最佳解的過程中若發生某一狀態較
 #code介紹<br>
 total_valu_size():看現在的背包有沒有符合規則<br>
 adjacent():隨機換一個物品的狀態<br>
-solve():解決此背包問題
+solve():用SA解決此背包問題
+<br><br><br>
+為了找出找出最佳解，在main函式裡窮舉退火溫度，結果在start_temperature=3591000時迭代250次的時後衝出了區域最佳解
